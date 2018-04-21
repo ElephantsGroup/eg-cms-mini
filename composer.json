@@ -2,8 +2,8 @@
     "name": "elephantsgroup/eg-cms-mini",
     "description": "Yii2 Mini CMS Template, runnable project with some default configuration",
     "keywords": ["yii", "yii2", "framework", "mini", "cms", "elephantsgroup"],
-    "homepage": "http://elephtansgroup.com",
     "type": "project",
+    "homepage": "http://elephtansgroup.com",
     "license": "MIT",
     "authors": [
         {
@@ -23,9 +23,11 @@
     "require": {
         "php": ">=7.0.0",
         "yiisoft/yii2": ">=2.0.0",
+        "yiisoft/yii2-swiftmailer": "*",
         "elephantsgroup/eg-base": "~1",
         "elephantsgroup/eg-jdf": "~1",
-        "elephantsgroup/eg-jdate": "~1"
+        "elephantsgroup/eg-jdate": "~1",
+		"elephantsgroup/eg-user": "~1"
     },
     "require-dev": {
         "yiisoft/yii2-debug": "*"
